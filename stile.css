@@ -1,3 +1,26 @@
-body {
-    background-image: url("images/sfondo.jpg");
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: Verdana, Tahoma, sans-serif;
 }
+#header {
+    text-align: center;
+}
+
+#banner {
+    width:20%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+    /*psuedo classi*/
+    a:visited {
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: none;
+    }
