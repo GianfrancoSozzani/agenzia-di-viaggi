@@ -3,7 +3,7 @@
     box-sizing: border-box;
     font-family: Verdana, Tahoma, sans-serif;
 }
-#header {
+#title {
     text-align: center;
 }
 
@@ -24,3 +24,29 @@ a {
     a:hover {
         text-decoration: none;
     }
+
+.container {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    gap: 40px;
+    padding: 20px;;
+}
+
+#menu {
+    font-weight: bolder;
+    display: flex
+    ;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+        gap: 30px;
+}
+#immagine {
+    display: flex;
+    justify-content: center;
+}
