@@ -50,3 +50,9 @@ a {
     display: flex;
     justify-content: center;
 }
+
+#central-title {
+    font-weight: bolder;
+    font-style: italic;
+    text-decoration: underline;
+}
