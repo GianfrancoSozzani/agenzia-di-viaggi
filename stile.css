@@ -60,13 +60,27 @@ a {
 
 .main {
     margin-top: 3%;
+    display: flex;
+    margin-top: 3%;
+    gap: 37px;
+    flex-direction: column;
 }
 
 
 .env {
-    max-width: 30%;
+    width: 100%;
+    height: auto;
 }
 
 .destinations {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 60%;
+}
 
+.destinations div {
+    max-width: 30%;
 }
