@@ -3,6 +3,15 @@
     box-sizing: border-box;
     font-family: Verdana, Tahoma, sans-serif;
 }
+
+:root {
+    --primary-color: #8b0b0b;
+}
+
+h1, #menu a, h2, p {
+    color: var(--primary-color);
+} 
+
 #title {
     text-align: center;
 }
@@ -13,7 +22,6 @@
 
 a {
     text-decoration: none;
-    color: black;
 }
 
     /*psuedo classi*/
@@ -25,7 +33,7 @@ a {
         text-decoration: none;
     }
 
-.container {
+.header {
     display: flex;
     align-content: center;
     flex-wrap: wrap;
@@ -38,14 +46,14 @@ a {
 
 #menu {
     font-weight: bolder;
-    display: flex
-    ;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        align-items: center;
-        align-content: center;
-        gap: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    gap: 30px;
 }
+
 #immagine {
     display: flex;
     justify-content: center;
@@ -56,13 +64,14 @@ a {
     font-weight: bolder;
     text-decoration: underline;
     margin: 20px;
+    color: var(--primary-color);
 }
 
 .main {
     margin-top: 3%;
     display: flex;
     margin-top: 3%;
-    gap: 37px;
+    gap: 45px;
     flex-direction: column;
 }
 
@@ -79,8 +88,57 @@ a {
     justify-content: space-evenly;
     align-items: center;
     width: 60%;
+    gap: 20px;
 }
 
 .destinations div {
     max-width: 30%;
+}
+
+.photo {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#mare {
+    color:#0CBFDE;
+}
+
+#montagna {
+    color:#16b967;
+}
+
+#deserto {
+    color: #FFBD58;
+}
+
+.sales {
+    width: 30%;
+}
+
+#sconti{
+    font-weight: bolder;
+    color: var(--primary-color);
+    margin: 20px;
+}
+
+#saldi {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 5px;
 }
