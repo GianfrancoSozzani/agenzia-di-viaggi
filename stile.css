@@ -52,7 +52,21 @@ a {
 }
 
 #central-title {
-    font-weight: bolder;
     font-style: italic;
+    font-weight: bolder;
     text-decoration: underline;
+    margin: 20px;
+}
+
+.main {
+    margin-top: 3%;
+}
+
+
+.env {
+    max-width: 30%;
+}
+
+.destinations {
+
 }
