@@ -1,58 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">  
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home_Page</title>
-    <link href="stile.css" rel="stylesheet" />
+    <title>Agenzia Viaggi</title>
+    <link rel="stylesheet" type="text/css" href="./stile.css" />
 </head>
-<body class="indexbody">
-    <div class="container">    
-        <div class="header">
-            <div id="title">
-                <h1><strong>Agenzia di Viaggi</strong></h1>
-            </div>
-            <div id="menu">
-                <p class="active"><a href="Index.html">Home</a></p>
-                <p><a href="#">Chi Siamo</a></p>
-                <p><a href="#">Iscriviti</a></p>
-            </div>
-            <div id="immagine"><img id="banner" src="images/logo.jpg" /></div>
+<body>
+    <header>  
+        <h1><strong>Agenzia di Viaggi</strong></h1>
+    </header>
+    <nav>  
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Chi Siamo</a></li>
+            <li><a href="#">Iscriviti</a></li>
+        </ul>
+    </nav>
+
+    <main> 
+        <div class="logo-container"> <!-- Contenitore per il logo -->
+            <img class="logo-img" src="images/homepage/worldtravel.jpg" alt="Logo Agenzia Viaggi"> 
         </div>
 
-        <div class="main">
-            <div id="central-title">
-                <h2>Scegli la tua destinazione</h2>
-            </div>
-            <div class="destinations">
-                <div class="photo">
-                    <h3 id="mare">Mare</h3>
-                    <a href="Mare.html"><img class="env" src="images/mare.jpg" /></a>
-                </div>
-                <div class="photo">
-                    <h3 id="montagna">Montagna</h3>
-                    <a href="montagna.html"><img class="env" src="images/montagna.jpg" /></a>
-                </div>
-                <div class="photo">
-                    <h3 id="deserto">Deserto</h3>
-                    <a href="deserto.html"><img class="env" src="images/deserto.png" /></a>
-                </div>
-            </div>
+        <h2 class="main-title"><em>Scegli la tua Destinazione</em></h2> <!-- Titolo principale -->
 
-            <div id="saldi">
-                <div>
-                    <h2 id="sconti">Tante offerte a portata di click!</h2>
-                </div>
-                <div class="info">
-                    <p> Sconti validi fino ad esaurimento scorte</p>
-                    <img class="sales" src="images/sales.png" />
-                </div>
-                    
+        <div class="destinazioni-container">  <!-- Contenitore per le destinazioni -->
+            <div class="destinazione">  <!-- Singola destinazione -->
+                <h3>Mare</h3>
+                <img src="images/homepage/sea.jpeg" alt="Mare">
+            </div>
+            <div class="destinazione">
+                <h3><a href="montagna.html">Montagna</a></h3>
+                <img src="images/homepage/mountain.jpg" alt="Montagna">
+            </div>
+            <div class="destinazione">
+                <h3>Deserto</h3>
+                <img src="images/homepage/desert.jpg" alt="Deserto">
             </div>
         </div>
-        <div class="footer">
-            <h3 id="pie-di-pagina">Agenzia di viaggi, Via Roma 47, Milano</h3>
-        </div>
-    </div>
+    </main>
+     <footer>
+        <p>© 2024 Agenzia di Viaggi. Tutti i diritti riservati.</p>
+    </footer>
 </body>
 </html>
