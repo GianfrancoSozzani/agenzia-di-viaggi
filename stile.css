@@ -73,6 +73,7 @@ a {
 }
 
 .main {
+
     display: flex;
     margin-top: 16%;
     gap: 45px;
