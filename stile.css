@@ -3,10 +3,15 @@
     box-sizing: border-box;
     font-family: Verdana, Tahoma, sans-serif;
 }
-body {
+
+.indexbody {
     background-image: url("images/sfondo.png");
     background-repeat:no-repeat;
     background-size: cover;
+}
+
+.desertobody {
+    background-color: black;
 }
 
 :root {
@@ -73,13 +78,32 @@ a {
 }
 
 .main {
-    margin-top: 3%;
     display: flex;
     margin-top: 16%;
     gap: 45px;
     flex-direction: column;
 }
 
+.main2 {
+    display: flex;
+    margin-top: 2%;
+    gap: 22px;
+    flex-direction: column;
+}
+
+.row {
+	display: flex;
+}
+
+.rowcolumn {
+  flex: 50%;
+  padding: 20px;
+}
+
+.rowcolumnitem {
+	width: 100%;
+	text-align: center;
+}
 
 .env {
     width: 100%;
@@ -106,17 +130,27 @@ a {
   gap: 20px;
 }
 
-/* #mare {
+.text_location {
+	font-size: 42px;
+	text-align: center;
+	color: #f19100;
+	font-weight: bolder;
+}
+
+.text_sub_location {
+	font-size: 28px;
+	text-align: center;
+	color: #f19100;
+	font-weight: bolder;
+}
+
+/*#mare {
     color:#00bcdd;
 }
 
 #montagna {
     color:#00a053;
-}
-
-#deserto {
-    color: #f19100;
-} */
+}*/
 
 .sales {
     width: 30%;
