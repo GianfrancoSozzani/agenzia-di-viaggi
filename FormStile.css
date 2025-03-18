@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    justify-content: center; /* Centra orizzontalmente */
+    align-items: center; /* Centra verticalmente */
+    margin: 0; /* Rimuove il margine predefinito */
+}
+:root {
+    --primary-color: #333;       
+    --secondary-color: #f8f9fa;    /* Grigio chiaro (usato meno) */
+    --accent-color: #ffc107;       /* Giallo/Oro */
+    --text-color: #333;            /* Grigio scuro per il testo */
+    --background-color: #fff;     /* Bianco (per elementi specifici) */
+    --border-color: #ddd;          /* Colore bordi leggero */
+    --box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Ombra leggera */
+}
+.user {
+    padding: 7px;
+}
+form {
+    margin: 10px;
+}
+.subscription{
+    display: flex;
+    gap: 5px;
+    margin: 6px;
+    text-align: center;
+    justify-content: center;
+}
+
+.main {
+   background-color: var(--background-color);
+   border: 1px solid var(--border-color);
+   box-shadow: var(--box-shadow);
+   padding: 15px;
+   text-align: center;
+   border-radius: 8px;
+   /*overflow: hidden;*/
+}
+.title {
+    font-weight:bolder;
+}
+button{
+    padding: 6px;
+    font-size: large;
+}
