@@ -8,7 +8,7 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif; /* Font principale */
+    font-family: 'IBM Plex Sans', 'Roboto', sans-serif; /* Font principale */
     line-height: 1.6;
     background-color: #f4f4f4; /* Grigio chiaro di sfondo */
     color: #333; /* Testo grigio scuro */
