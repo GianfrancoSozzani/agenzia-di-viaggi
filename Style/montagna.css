@@ -1,0 +1,35 @@
+/* ------------------------------------
+   1. Reset CSS e Impostazioni Generali
+   ------------------------------------ */
+/* ------------------------------------
+   2. Variabili CSS
+   ------------------------------------ */
+/* ------------------------------------
+   3. Tipografia
+   ------------------------------------ */
+   .main-title {
+    font-size: 2em; 
+    border-bottom: 2px solid var(--accent-color); /* Sottolineatura */
+    padding-bottom: 0.2em;
+    
+
+}
+
+p {
+    margin-bottom: 1em; /* Spazio sotto i paragrafi */
+}
+/* ------------------------------------
+   4. Layout e Componenti
+   ------------------------------------ */
+   .subtitle {
+    text-align: center;
+    padding: 20px;
+    font-size: x-large;
+    
+  }
+/* ------------------------------------
+   5. Stili di Stato (Hover, Focus)
+   ------------------------------------ */
+/* ------------------------------------
+   6.  Responsività
+   ------------------------------------ */

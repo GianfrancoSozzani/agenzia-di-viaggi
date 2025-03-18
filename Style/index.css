@@ -1,0 +1,46 @@
+/* homepage.css - CSS Migliorato per Agenzia Viaggi */
+
+/* ------------------------------------
+   1. Reset CSS e Impostazioni Generali
+   ------------------------------------ */
+/* ------------------------------------
+   2. Variabili CSS
+   ------------------------------------ */
+/* ------------------------------------
+   3. Tipografia
+   ------------------------------------ */
+   h2 {
+    font-size: 2em; 
+    border-bottom: 2px solid var(--accent-color); /* Sottolineatura */
+    padding-bottom: 0.2em;
+    
+
+}
+
+p {
+    margin-bottom: 1em; /* Spazio sotto i paragrafi */
+}
+
+/* ------------------------------------
+   4. Layout e Componenti
+   ------------------------------------ */
+
+/* Logo */
+.logo-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; /* Spazio sotto il logo */
+}
+
+.logo-img {
+    max-width: 100%;
+    height: auto;
+    max-height: 350px;
+    border-radius: 8px;
+    box-shadow: var(--box-shadow);
+}
+
+
+
+
+
