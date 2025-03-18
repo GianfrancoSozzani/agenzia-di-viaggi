@@ -1,7 +1,7 @@
 * {
     margin: 0 auto;
     box-sizing: border-box;
-    font-family: Verdana, Tahoma, sans-serif;
+    font-family: "IBM Plex Sans", Verdana, Tahoma, sans-serif;
 }
 
 .indexbody {
@@ -96,8 +96,8 @@ a {
 }
 
 .rowcolumn {
-  flex: 50%;
-  padding: 20px;
+  flex: 50.0%;
+  padding: 40px;
 }
 
 .rowcolumnitem {
