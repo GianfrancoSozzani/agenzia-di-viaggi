@@ -1,0 +1,118 @@
+/* ------------------------------------
+   1. Reset CSS e Impostazioni Generali
+   ------------------------------------ */
+   * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif; /* Font principale */
+    line-height: 1.6;
+    background-color: #f4f4f4; /* Grigio chiaro di sfondo */
+    color: #333; /* Testo grigio scuro */
+}
+
+a {
+    text-decoration: none;
+    color: inherit; /* Eredita colore del testo */
+    transition: color 0.3s ease, background-color 0.3s ease; /* Transizione fluida */
+}
+
+ul {
+    list-style: none;
+}
+
+/* ------------------------------------
+   2. Variabili CSS
+   ------------------------------------ */
+:root {
+    --primary-color: #333;       
+    --secondary-color: #f8f9fa;    /* Grigio chiaro (usato meno) */
+    --accent-color: #ffc107;       /* Giallo/Oro */
+    --text-color: #333;            /* Grigio scuro per il testo */
+    --background-color: #fff;     /* Bianco (per elementi specifici) */
+    --border-color: #ddd;          /* Colore bordi leggero */
+    --box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Ombra leggera */
+}
+
+/* ------------------------------------
+   3. Tipografia
+   ------------------------------------ */
+h1, h2, h3 {
+    font-family: 'Oswald', sans-serif; /* Font per i titoli */
+    font-weight: 500;
+    margin-bottom: 0.5em;
+}
+
+h1 {
+    font-size: 2.5em;  /* Dimensione coerente con il tuo stile originale */
+    color: #000;       /* Nero per contrasto */
+}
+
+h2 {
+    font-size: 2em; 
+    padding-bottom: 0.2em;
+}
+
+h3 {
+    font-size: 1.5em; 
+    font-weight: bold;
+    color: var(--text-color); 
+}
+
+p {
+    margin-bottom: 1em; /* Spazio sotto i paragrafi */
+    padding: 5px;
+}
+
+.line{
+    border-bottom: 2px solid var(--accent-color); /* Sottolineatura */
+}
+
+/* ------------------------------------
+   4. Layout e Componenti
+   ------------------------------------ */
+   header {
+    background-color: var(--background-color); /* Bianco */
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px; /* Spazio sotto l'header */
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 1rem; 
+    margin-bottom: 20px; /* Spazio sotto la navigazione */
+}
+
+nav a {
+    font-weight: bold;
+    padding: 8px 15px; 
+    display: inline-block;
+}
+
+.contenuto{
+    padding: 14px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--secondary-color);
+    margin-top: 3rem;
+    border-top: 1px solid var(--border-color);
+    color: #666;
+  }
+
+/* ------------------------------------
+   5. Stili di Stato (Hover, Focus)
+   ------------------------------------ */
+
+   nav a:hover {
+    background-color: var(--primary-color); 
+    color: white;
+}
+
